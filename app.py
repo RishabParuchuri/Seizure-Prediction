@@ -13,6 +13,7 @@ filename = 'lstm_model.h5'
 wget.download(model_url, filename)
 
 # load the model
+# Credit to Inpirit AI and Dovran Amanov
 def prepare_data(eeg_df):
   file_names = eeg_df['Unnamed: 0'].tolist()
 
