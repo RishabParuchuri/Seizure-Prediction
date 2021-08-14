@@ -1,11 +1,11 @@
 import streamlit as st
 import tensorflow as tf
-import keras
 from tensorflow.keras.models import load_model
 import pandas as pd
 import time
 import numpy as np
 import wget
+import tenserflow.keras
 
 model_url = 'https://www.dropbox.com/s/f4lvsg9daer77u7/lstm_many2one.h5?dl=1'
 
