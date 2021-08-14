@@ -5,6 +5,12 @@ from tensorflow.keras.models import load_model
 import pandas as pd
 import time
 import numpy as np
+import wget
+
+model_url = 'https://www.dropbox.com/s/f4lvsg9daer77u7/lstm_many2one.h5?dl=1'
+
+filename = 'lstm_model.h5'
+wget.download(model_url, filename)
 
 # load the model
 def prepare_data(eeg_df):
