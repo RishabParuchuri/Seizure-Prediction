@@ -7,4 +7,4 @@
 Here is the link to the Seizure Prediction model:
 https://share.streamlit.io/rishabparuchuri/seizure-prediction/app.py
 
-Here is the link to the model creation: https://colab.research.google.com/drive/1zPPSWsJHLdjbGhwAz303XfBZyLUAcbDL?usp=sharing
+Here is the link to the model creation: https://colab.research.google.com/drive/1EGcH6jXMuWZXpaG9arWrAaC3GqfMmafE?usp=sharing
